@@ -1,62 +1,81 @@
-
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title> Contact Michelle </title> 
+<head>
+  <title> Michelle's Indonesian Kitchen </title> 
     </head>
 
-    <style>
-    p {
-        color: rgb(170, 40, 0);
-        font-size: 18px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-
-    body {
-        background-color: hsl(41, 86%, 67%);
-        }
-
+<style>
         h1, h2 {
     color: rgb(170, 40, 0);
     font-size: 18px;
     font-family: Verdana, Geneva, bold, Tahoma, sans-serif;
     }
 
+        h {
+    color: rgb(170, 40, 0);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+        p, ul {
+    color: darkslateblue;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    }
+
+        body {
+    background-color: hsl(41, 86%, 67%);
+    }
+
     h1 {
         width: 100%;
         padding: 35px;
         background: rgb(243, 148, 70);
-        }
+    }
+
+
+    
+
 
 </style>
 
+
 <body>
-    <h1>Contact me</h1>
+      
+    <h1>Daily Meals</h1>
+    
     <hr>
-    <form name="contact" method="POST" data-netlify="true">
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>   
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="message" rows="10" cols="30"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
 
-  <a href="mailto:feverdance13@gmail.com">Or send an email to me</a>
+    <h2> Todays Meal: Marinated Tempeh </h2>
 
-  <p>
+    <p> Augue purus et, tincidunt condimentum mauris. At nibh rutrum mi in. Nisi, vitae interdum eleifend dui, consequat nulla rhoncus dictum. Viverra. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+        
+    <h> Ingredients </h>
+        
+    <ul>
+          <li>abcde</li>
+          <li>fghij</li>
+          <li>klmno</li>
+          <li>pqrst</li>
+          <li>uvwxyz</li>
+    </ul>
+        
+    <h> Instructions </h>
+       
+    <p> Augue purus et, tincidunt condimentum mauris. At nibh rutrum mi in. Nisi, vitae interdum eleifend dui, consequat nulla rhoncus dictum. Viverra. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
 
-  </p>
 
-  <a href="http://127.0.0.1:5500/Winc_Academy/opdracht%20CSS/mywebpage.html" target="_blank">Back to homepage</a>
+    <img src="https://flessenpostuitbergen.nl/wp-content/uploads/2019/11/rijsttafel-2-468x273.jpg">
+      
+    <hr>
+
+    <a href="http://127.0.0.1:5500/Winc_Academy/opdracht%20CSS/contact-me.html" target="_blank">Contact me</a>
+
+    <hr>
+    
+    <a href="http://127.0.0.1:5500/Winc_Academy/opdracht%20CSS/index.html" target="_blank">About me</a>
 
 </body>
 
