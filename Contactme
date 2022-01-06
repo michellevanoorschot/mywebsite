@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Contact Michelle </title> 
+    </head>
+
+    <style>
+    p {
+        color: rgb(170, 40, 0);
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+    body {
+        background-color: hsl(41, 86%, 67%);
+        }
+
+        h1, h2 {
+    color: rgb(170, 40, 0);
+    font-size: 18px;
+    font-family: Verdana, Geneva, bold, Tahoma, sans-serif;
+    }
+
+    h1 {
+        width: 100%;
+        padding: 35px;
+        background: rgb(243, 148, 70);
+        }
+
+</style>
+
+<body>
+    <h1>Contact me</h1>
+    <hr>
+    <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>   
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message" rows="10" cols="30"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+
+  <a href="mailto:feverdance13@gmail.com">Or send an email to me</a>
+
+  <p>
+
+  </p>
+
+  <a href="http://127.0.0.1:5500/Winc_Academy/opdracht%20CSS/mywebpage.html" target="_blank">Back to homepage</a>
+
+</body>
+
+</html>
